@@ -3,7 +3,7 @@ const assert = require('assert');
 
 describe('Login Test for HealthOne', () => {
     // Test case: Successful login with valid credentials
-    it('should successfully log in with valid credentials', async () => {
+    it.only('should successfully log in with valid credentials', async () => {
         // Open the login page
         await LoginPage.open();
 
