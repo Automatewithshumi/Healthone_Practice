@@ -1,0 +1,1 @@
+class sauceLoginPage extends page

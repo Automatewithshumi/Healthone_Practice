@@ -19,7 +19,7 @@ describe('sause demo app login', () => {
 
     });
 
-    it.only('should login with valid standard user', async () => {
+    it('should login with valid standard user', async () => {
 
         await browser.url('https://www.saucedemo.com/');
 
